@@ -50,6 +50,5 @@ License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 Acknowledgments
-All contributors and developers of the technologies used in this project.
 The open-source community for providing invaluable resources and support.
 Deployment link - https://facial-login-project.vercel.app/ 
