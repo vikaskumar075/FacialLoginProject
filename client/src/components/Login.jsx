@@ -35,7 +35,6 @@ const Signup = (props) => {
     })
       .then((response) => {
         console.log(response);
-
         localStorage.setItem("username", JSON.stringify(response.data.user.username));
 
         if (response?.status == 200) {

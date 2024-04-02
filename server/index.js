@@ -10,8 +10,10 @@ const app = express();
 
 app.use(cors({
   origin:["https://facial-login-project.vercel.app"],
+  methods: "GET,PUT,POST",
   credentials:true
 }));
+
 app.use(express.json());
 app.use("/auth", UserRouter);
 app.use(cookieParser())
