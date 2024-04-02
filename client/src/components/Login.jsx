@@ -29,7 +29,7 @@ const Signup = (props) => {
       return;
     }
 
-    await Axios.post("http://localhost:3000/auth/login", {
+    await Axios.post("https://facial-login-api.vercel.app/auth/login", {
       email,
       faceDescriptor: Object.values(faceDescriptor), // Include the face descriptor in the signup data
     })
