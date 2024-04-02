@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin:["https://facial-login-project.vercel.app"],
+  origin:["https://facial-login-project.vercel.app/"],
   credentials:true
 }));
 app.use(express.json());
